@@ -6,6 +6,7 @@ import Player from './components/Player'
 import PlayerSelected from './components/PlayerSelected'
 //
 //stylesheets
+const title = 'Open Gem'
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +22,9 @@ class App extends Component {
 
   componentDidMount(){
     this.getPlayers()
+    
   }
+  
 
   getPlayers = () => {
     axios.get('api/players')
@@ -30,6 +33,9 @@ class App extends Component {
         players: response.data
       })
     })
+    .catch(err =>{
+      console.log(err)
+  })
   }
 
   handleImage = (val) => {

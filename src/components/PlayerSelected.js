@@ -58,17 +58,11 @@ export default class PlayerSelected extends Component {
         return (
         <div>
             <div className="team">
-            {/* <div className="select">Select Guard */}
-
-                {/* <h4 className="player-name">{this.props.name}</h4> */}
-                {/* <h4 className="player-pos">{this.props.player.position}</h4> */}
-                
                 {this.props.selectedPlayer
                 ? (<div>
                     {!this.state.edit
                     ?(<div className="selectStyle">
                         <h4>{this.props.selectedPlayer.name}</h4>
-                        {/* <h4>{this.props.selectedPlayer.position}</h4> */}
                         <img src={this.props.selectedPlayer.image}  alt="pro" />
                         <div className='button-div'>
                             <button onClick={this.handleToggle}>Edit</button>
@@ -78,7 +72,7 @@ export default class PlayerSelected extends Component {
                     : (
                         <div className='selectStyle'>
                             <div>
-                                <input value={this.state.editName} onChange={(e) => this.handleInput(e.target.value)}/>
+                                <input id="input" value={this.state.editName} onChange={(e) => this.handleInput(e.target.value)}/>
                             </div>
                                 <img src={this.props.selectedPlayer.image}  alt="pro" />
                             <div className='button-div'>
@@ -92,51 +86,13 @@ export default class PlayerSelected extends Component {
                     <div></div>
                 )}
                 
-                {/* </div> */}
-
-                {/* <div className="select">Select Forward */}
-
-                {/* <h4 className="player-name">{this.props.name}</h4> */}
-                {/* <h4 className="player-pos">{this.props.player.position}</h4> */}
-                {/* <img src={this.props.player.image} alt="pro" /> */}
-                {/* <button onClick={this.handleToggle}>Edit</button>
-                <button onClick={()=>this.handleDeletePlayer(this.props.player.id)}>Cut</button>
-                </div> */}
-
-                {/* <div className="select">Select Center */}
-
-                {/* <h4 className="player-name">{this.props.name}</h4> */}
-                {/* <h4 className="player-pos">{this.props.player.position}</h4> */}
-                {/* <img src={this.props.player.image} alt="pro" /> */}
-                {/* <button onClick={this.handleToggle}>Edit</button>
-                <button onClick={()=>this.handleDeletePlayer(this.props.player.id)}>Cut</button>
-                </div> */}
+                
             </div>
 
 
 
-                {/* )
-            // :
-            ( */}
-                {/* <div className="team">
-                <div className="select">Select Player
-                <input placeHolder='Name' onChange={(e)=>this.handleInput(e.target.value)} value={this.state.editName}/>
-                <button onClick={()=>this.handleUpdatePlayer(this.props.player.id)}>Choose</button>
-                <button onClick={()=>this.handleDeletePlayer(this.props.player.id)}>Cut</button>
-                </div> */}
-
-                {/* <div className="select">Select Player</div>
-                <button>Choose</button>
-                <button>Edit</button>
-                <button>Cut</button>
-                <div className="select">Select Player</div>
-                <button>Choose</button>
-                <button>Edit</button>
-                <button>Cut</button> */}
                 
-            {/* </div> */}
-            {/* ) */}
-            }
+            
         </div>  
         )
     }

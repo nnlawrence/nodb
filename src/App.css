@@ -40,18 +40,28 @@ header > div > img {
 
 .add-a {
     height: 50px;
-    width: 50px;
+    width: 298px;
     display: flex;
     padding-bottom: 5px;
     margin-left: 3px;
-    
+    background: skyblue;
+    border: 2px solid black;
+    margin: .5px;
+}
+
+.add-a > button {
+    border-radius: 15%;
+    margin: 5px;
+    border: 1px solid black;
+    font-family: 'Lobster', cursive;
 }
 
 #txtPos {
-    width: 60px;
-    margin: 1px;
+    width: 65px;
+    margin: 3px;
     background: rgba(10, 10, 10, 0.9);
     color: white;
+    border-radius: 15%;
 
 }
 

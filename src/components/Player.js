@@ -12,9 +12,9 @@ const Player = (props) => {
         
         
         <div className="player-container">
-            <button onClick={() => props.selectPlayer(props.players)}>Add</button>
-            <button onClick={() => props.deleteFunc(id)}>Delete</button>
-            <div>
+            <div id="btnflx"><button onClick={() => props.selectPlayer(props.players)}>Draft</button>
+            <button onClick={() => props.deleteFunc(id)}>Retire</button>
+            </div><div>
             <h3>{name}</h3>
             <p>{position}</p>
             </div>
