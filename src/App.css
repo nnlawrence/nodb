@@ -1,33 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 .App {
-  text-align: center;
+    height: 100%;
+    width: 100vw;
+    background: rgba(226, 84, 84, 1);
+    border: 4px solid black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.top-header {
+    height: 165px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header > div > img {
+    width: 100vw;
+    height: 100px;
+    border: 2px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+    color: rgb(255, 155, 155);
+    background: black;
+    width: 100vw;
+    height: 65px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    -webkit-text-stroke: .1px rgb(255, 255, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.player-objects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+    width: 300px;
+}
+
+.add-a {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    padding-bottom: 5px;
+    margin-left: 3px;
+    
+}
+
+#txtPos {
+    width: 60px;
+    margin: 1px;
+    background: rgba(10, 10, 10, 0.9);
+    color: white;
+
+}
+
+.parent-div {
+    min-height: 71.5vh;
+    display: flex;
+    /* padding-top: 260px; */
 }
