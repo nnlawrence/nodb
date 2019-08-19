@@ -27,7 +27,7 @@ let players = [
         id: 5,
         name: 'Shaquille ONeal',
         position: 'Center',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxrJG2eU4fn88OU-pdPS6wJe7PvniXD1Wi5cMwYoP17GB8Y1D'
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFonAtA6iRkdrySvcDrU6lpyHfZOgMIJ8z-_eMQiIMT3TqPcqHQ'
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ let players = [
         id: 8,
         name: 'Wilt Chamberlain',
         position: 'Center',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjiyXUV0qe_tQ4Hr0O2aSIeWFIK_1Mc8wiRdHbrjCuXLCKpiVTxQ'
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHjmydEYqsRJ3Ga7hE9Ypt17onU-ZlaL3S4tEvJZ8eeK7KilCQ'
     },
     {
         id: 9,

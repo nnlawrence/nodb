@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow&display=swap');
 
 .players-container-header {
     display: flex;
@@ -15,7 +15,6 @@
     border-right: 2px solid rgba(0,0,0, 0.8);
     border-top: 1px solid rgba(0,0,0, 0.8);
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -88,19 +87,22 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
 
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap');
+
 .build {
-    margin-top: 50px;
-    margin-left: 70px;
+    margin-top: 20px;
+    margin-left: 15px;
     font-weight: 900;
-    font-size: 40px;
-    font-family: 'Indie Flower', cursive;
-    color: rgb(80, 172, 214);
-    -webkit-text-stroke: .6px rgb(0, 0, 0);
+    font-size: 45px;
+    font-family: 'Cormorant SC', serif;
+    color: (rgb(0, 0, 0));
+    -webkit-text-stroke: .1px  rgb(80, 172, 214);
     text-align: center;
-   
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 .selectStyle {
@@ -113,9 +115,13 @@
 }
 
 .selectStyle > h4 {
-    font-size: 13px;
-    color: black;
+    font-size: 17px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
     text-align: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family: 'Thasadith', sans-serif;
+    margin: 6px;
     /* background: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 40%; */
@@ -124,7 +130,7 @@
 .selectStyle > img {
     width: 180px;
     height: 180px;
-    border: 3.5px solid white;
+    border: 5.5px solid rgb(8255, 255, 255);
     border-radius: 25px;
 }
 
@@ -145,6 +151,6 @@
 }
 
 #input {
-    margin-left: 24px;
+    margin-left: 30px;
     margin-bottom: 2px;
 }

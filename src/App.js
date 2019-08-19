@@ -4,6 +4,7 @@ import './App.css'
 //components
 import Player from './components/Player'
 import PlayerSelected from './components/PlayerSelected'
+import 'reset-css'
 //
 //stylesheets
 const title = 'Open Gem'
@@ -82,6 +83,9 @@ handleDeletePlayer = (id) => {
       players: res.data
     })
   })
+  .catch(err =>{
+    console.log(err)
+})
 }
 
 updatePlayer = async(data) => {
@@ -120,10 +124,13 @@ removeFromTeam = (index) => {
 
     return (
 <div className="App">
+  
+  
           <header className='top-header'>  
             <div className="title">Open Gem
             <img src="https://png.pngtree.com/thumb_back/fh260/back_pic/03/59/19/2157a40289c9d05.jpg" alt='basketball' /></div>
           </header>
+          
 
       <div className="players-container-header">
       </div>
